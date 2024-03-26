@@ -1,0 +1,424 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    font-family: 'Roboto',sans-serif;
+}
+body{
+    font-family: 'Roboto',sans-serif;
+}
+.header{
+    display: flex;
+    background-color: #466AB0;
+    padding: 6px 0px;
+    color: white;
+    justify-content: space-around;
+}
+.phone{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    gap: 10px;
+    font-size: 20px;
+    margin:5px 10px;
+    padding: 0px 10px;
+}
+.logos2{
+    display: flex;
+    margin-left:0px;
+}
+.icons {
+    margin: 10px 10px;
+    font-size: 20px;
+}
+.col-md-5.logos2 {
+    margin-left: 148px;
+}
+.info {
+    
+   display: flex;
+   margin: 0px 100px;
+
+}
+.logo1{
+    width: 160px;
+    margin-top: 20px;
+}
+.menuservices{
+    list-style: none;
+    display: flex;
+    gap: 50px;
+    font-size: 16px;
+    color: black;
+    margin: 0px 0px;
+   
+}
+.menuservices a{
+    color: black;
+    font-weight: 500;
+
+}
+.atags{
+    margin: 20px 0px;
+}
+
+.test{
+    display: flex;
+}
+.border{
+    border:1px solid black;
+    border-radius: 20px;
+    background-color: #466AB0;
+    color: white;
+    padding: 0px 20px;
+   
+}
+.testdrive{
+    margin-top: -5px;
+}
+.testdrive h:hover{
+    background-color: black;
+}
+.p2{
+    color: #b9d2ff;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+.p1{
+    color:white;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+.carh1{
+    font-weight: 700;
+    font-size: 42px;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+.carh2{
+    font-weight: 700;
+    color:#466AB0;
+    font-size: 42px;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+.intro{
+    padding: 120px 0px 0px;
+    margin: 0px 0px 8px;
+}
+.brief{
+    padding: 120px 0px 0px;
+    
+}
+.brief p{
+    color: #777777;
+    font-size: 15px;
+    margin:0px 0px 15px;
+}
+.btnbtn-primary{
+    background-color: #466AB0;
+    color: white;
+    font-size: 16px;
+    border:none;
+    border-radius:60px;
+    padding: 10px 30px;
+    margin: 10px 0px;
+}
+.btnbtn-primary1{
+    background-color: #466AB0;
+    color: white;
+    font-size: 16px;
+    border:none;
+    border-radius:60px;
+    padding: 10px 20px;
+    margin: 0px 0px;
+}
+
+/* .speedlogo{
+   background-color: black;
+   border-radius: 50px;
+   width: 100%;
+   max-width: 85px;
+   
+} */
+img.speedlogo {
+    width: 100%;
+    max-width: 55px;
+    height: 100%;
+    max-height: 55px;
+    object-fit: cover;
+}
+.section3{
+    padding: 120px 0px 20px;
+}
+/* .border1{
+    border: 10px solid black;
+
+} */
+.sectioncols {
+    background-color: rgb(247, 247, 247);
+    padding: 30px;
+    margin: 0px 0px 30px;
+    /* border: 11px solid white; */
+}
+.vt-sectionbg {
+    background-color: rgb(239, 245, 255) !important;
+}
+/* .speedlogo{
+    width: 55px;
+    height: 55px;
+} */
+.featuresh{
+   margin: 0px 15px;
+   
+}
+.featuresp{
+    margin: 10px 30px;
+    font-size: 15px;
+}
+.features{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 90px;
+}
+.video1{
+    margin: 70px 0px;
+
+}
+.video2{
+    margin: 70px 0px;
+}
+.border2{
+  
+  border:1px solid white;
+  border-radius: 9px;
+}
+.img-right {
+    position: absolute;
+    top: 80px;
+    right: 20px;
+}
+.ourcars{
+    text-align: center;
+    padding: 0px 15px;
+    margin-bottom: 40px;
+   
+}
+.ourcars1{
+    color: #466AB0;
+    
+}
+.nexon{
+    text-align: center;
+    max-height: 170px;
+    max-width:350px ;
+}
+.nexon1{
+    width:261px;
+    height: 156px;
+}
+.car-section{
+    background-color: whitesmoke;
+}
+.box1{
+    background-color: white;
+    margin:15px 0px;
+   
+}
+.carinfo1{
+    color: grey;
+    text-align: center;
+}
+.carinfo{
+    text-align: center;
+    padding:30px 20px;
+}
+.punch{
+    width: 261px;
+    height: 261px;
+    /* margin:-70px 30px; */
+}
+
+.td{
+    color:#466AB0;
+    font-weight: 600;
+}
+.form1{
+    margin: 20px 0px;
+}
+.press-section{
+    padding:120px 0px ;
+}
+.press-section h1{
+    font-weight: 600;
+    margin: 0px 0px 8px;
+}
+.press-section h4{
+    color:#777777;
+    margin:0px 0px 30px;
+}
+.pressimg{
+    width:605px;
+    height: 403px;
+    position: relative;
+    margin-left: 15px;
+    border-radius: 5px;
+}
+.shape{
+    position: absolute;
+    width: 483px;
+    height: 428px;
+}
+.formhead{
+    background-color: black;
+    width: 445px;
+    height: 76px;
+    color: white;
+    text-align: center;
+    margin: 0px 0px 0px;
+}
+
+.form-group{
+    margin: 3px 0px 0px;
+    
+}
+.form-details{
+    width: 445px;
+    padding: 30px;
+    background-color: whitesmoke;
+}
+.btnbtn-primary3{
+    width:385px;
+    height: 46px;
+    border: none;
+    border-radius: 7px;
+    background-color: #466AB0;
+    color: white;
+    font-weight: 900;
+    margin:20px 0px; 
+}
+.form-control{
+    width: 385px !important;
+    height: 46px !important;
+    
+}
+.footer{
+    background-color: black;
+    padding: 70px 0px 40px;
+}
+.visionlogo1{
+    width: 200px;
+    height: 44px;
+}
+.ft1 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+    color: white;
+    margin: 0px 0px 20px;
+    gap: 28px;
+}
+/* .contacts{
+    width: 40px;
+    height: 40px;
+    margin: 0px 20px 0px 0px;
+    background-color: white;
+    border-radius:50%;
+ 
+} */
+.vision1img{
+    width:350px;
+    height: 44px;
+    margin: 0px 0px 30px;
+}
+.phn-icon {
+    color: black;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    border-radius: 50%;
+}
+.phn-icon i {
+    font-size: 30px;
+}
+.linkh{
+    width:160px;
+    height: 54px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    margin: 0px 0px 30px;
+   
+}
+.servs{
+    width: 160px;
+    height: 185px;
+    list-style: none;
+    margin: 0px 0px 20px;
+    
+}
+.servs a{
+    color: white;
+    margin: 0px 0px 20px;
+}
+.widget{
+    margin: 0px 0px 30px;
+
+}
+.items{
+    margin: 0px 0px 15px;
+}
+.newsletter{
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    /* margin: 0px 0px 30px;
+    padding: 0px 0px 15px; */
+}
+.form-control1{
+    width:200px
+}
+.news{
+    padding: 0px 0px 15px; 
+    margin: 0px 0px 30px;
+}
+.social-logo{
+    display: flex;
+    gap: 10px;
+    margin:30px 0px 0px;
+}
+.social1{
+    background-color: white;
+    color: black;
+    width: 52px;
+    height: 52px;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 20px;
+    line-height: 50px;
+}
+.social2{
+    background-color: white;
+    color: black;
+    text-align: center;
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    font-size: 20px;
+    line-height: 50px;
+}
+.last-block p{
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+
+}
+.ft3{
+    padding: 40px 0px;
+}
